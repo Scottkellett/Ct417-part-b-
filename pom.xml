@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
 	    <groupId>com.github.Scottkellett</groupId>
-	    <artifactId>Ct417</artifactId>
+	    <artifactId>Ct417-part-a-</artifactId>
 	    <version>master-SNAPSHOT</version>
 	</dependency>
     </dependencies>
