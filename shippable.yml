@@ -1,6 +1,9 @@
 language: java
 JDK: -openjdk8
-
-on_success: 
-    - mvn clean
-    - mvn test
+branches:
+    only:
+        -master
+build:
+    on_success:
+        - mvn clean
+        - mvn test
