@@ -1,8 +1,9 @@
 language: java
-JDK: -openjdk8
+jdk:
+    - openjdk8
 branches:
     only:
-        -master
+        - master
 build:
     on_success:
         - mvn clean
